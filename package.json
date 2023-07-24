@@ -1,13 +1,15 @@
 {
-  "name": "my-app",
+  "name": "asset-allocation",
   "version": "0.1.0",
-  "homepage": "https://rahul007shah.github.io/react-gh-pages",
+  "homepage": "https://rahul007shah.github.io/asset-allocation",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.4.0",
+    "pcln-design-system": "^5.15.0",
+    "primereact": "^9.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -41,5 +43,9 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

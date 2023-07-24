@@ -1,14 +1,17 @@
-import React from 'react';
-import Converter from './Converter';
+import React from "react";
+import Converter from "./Converter";
+import { ThemeProvider } from "pcln-design-system";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Converter />
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <ThemeProvider>
+        <header className="App-header">
+          <Converter />
+        </header>
+      </ThemeProvider>
+    );
+  }
 }
 
 export default App;
